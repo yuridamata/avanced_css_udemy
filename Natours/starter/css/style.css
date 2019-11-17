@@ -1,0 +1,47 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+/* 
+  Reset Code: Usado para retirar quaisquer propriedades que o browser coloca por padrão 
+  Deve ser colocado em primeiro lugar no primeiro arquivo
+*/
+
+/* 
+
+* {           // Seletor  universal: Seleciona todos os elementos da página
+
+  ... Code goes here
+}
+
+- Border-sizing
+
+By default, the width and height of an element is calculated like this:
+
+width + padding + border = actual width of an element
+height + padding + border = actual height of an element
+
+This means: When you set the width/height of an element, the element often appears bigger than you have set (because the element's border and 
+padding are added to the element's specified width/height).
+
+If you set box-sizing: border-box; on an element padding and border are included in the width and height:
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+}
